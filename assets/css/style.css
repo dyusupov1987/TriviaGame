@@ -1,0 +1,81 @@
+header img {
+	height: 150px;
+}
+
+header h1 {
+	text-align: left;
+	color: white;
+	font-family: 'Baloo Tamma', cursive;
+	font-size: 48px;
+	position: relative;
+	top: -125px;
+	left: 80px;
+}
+
+body {
+	background: url('../images/background.jpg');
+	background-size: 100%;
+	font-family: 'Raleway', sans-serif;
+	font-size: 25px;
+}
+
+.container {
+	margin-top: 50px;
+	text-align: center;
+	height: 100%;
+	width: 700px;
+}
+
+#startButton {
+	width: 150px;
+	height: 50px;
+	border: 1px solid white;
+	font-size: 20px;
+}
+
+.container #timeLeft {
+	color: green;
+	position: relative;
+	top: -80px;
+}
+
+.container #currentQuestion {
+	color: red;
+	font-size: 25px;
+	position: relative;
+	top: -80px;
+}
+
+.container #question {
+	color: red;
+	font-size : 25px;
+	position: relative;
+	top: -20px;
+}
+
+.container #answerList{
+	color: white;
+	font-size: 25px;
+	position: relative;
+	top: -20px;
+}
+
+.container #answerMessage, #answer {
+	color: white;
+	font-size: 25px;
+	position: relative;
+	top: -80px;
+}
+
+.container #gif-holder {
+	float: center;
+	position: relative;
+	top: -60px;
+}
+
+.container #gameMessage, #correct, #incorrect, #unanswered, #restart {
+	color: white;
+	font-size : 25px;
+	position: relative;
+	top: -60px;
+} 
